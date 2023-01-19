@@ -1,0 +1,12 @@
+body {
+    padding: 0 128px;
+}
+
+.topsection{
+    background-color: rgb(235, 235, 8);
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
