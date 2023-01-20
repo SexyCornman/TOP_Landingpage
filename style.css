@@ -2,11 +2,10 @@ body {
     
 }
 
-.topsection{
-   background-color: #3e546e;
-
-
+.topsection{ 
+    background-color: #8c9491;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -55,13 +54,67 @@ a {
 .contenttop{
     display: flex;
     justify-content: center;
-    
+    background-image: url(.pic) ;   
     
 }
+
+.topbox{
+    
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 64px 256px;
+    background-color: #e59959;
+    border-radius: 40px;
+    padding: 0px 64px;
+
+}
+.rightbox {
+    font-family: cursive;
+    width: 1500px;
+}
+
+.leftbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+.welcome {
+    font-size: 88px;
+    color: aliceblue;
+    text-shadow: 0 0 5px white,
+                 0 0 20px black,
+                 0 0 40px white;
+
+   
+}
+
+.welcometext {
+    font-size: 36px;
+    color: aliceblue; 
+    text-shadow: 0 0 5px white;
+}
+
+.button1 {
+    background-color: #ffb857;
+    padding: 32px 64px;
+    font-size: 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: aliceblue; 
+    font-weight: 1000;
+    margin-top: 24px;
+    
+}
+
 .memimg {
     width: auto;
     height: 500px;
     border-radius: 100px;
+    
 }
 
 
