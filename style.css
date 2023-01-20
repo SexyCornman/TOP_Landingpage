@@ -4,9 +4,11 @@ body {
 
 .topsection{ 
     background-color: #8c9491;
+    background-image: url(./PIC/hololive-usada-pekora-hd-wallpaper.jpg);
+    width: 100%;
 }
 
-.header {
+.navbar {
     display: flex;
     justify-content: space-between;
     padding: 16px;
@@ -54,7 +56,7 @@ a {
 .contenttop{
     display: flex;
     justify-content: center;
-    background-image: url(.pic) ;   
+    
     
 }
 
@@ -64,15 +66,32 @@ a {
     flex: 1;
     justify-content: space-between;
     align-items: center;
-    margin: 64px 256px;
-    background-color: #e59959;
+    position: relative;
+    margin: 64px 256px;    
     border-radius: 40px;
     padding: 0px 64px;
+    flex-wrap: wrap;
+   
+
+}
+.topbox:after {
+    content:'';    
+    background-color: #e59959;
+    border-radius: 40px;    
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    
 
 }
 .rightbox {
     font-family: cursive;
-    width: 1500px;
+    z-index: 1;
+    flex: 1;
+    
 }
 
 .leftbox {
@@ -81,19 +100,23 @@ a {
     justify-content: center;
     align-items: center;
     padding: 64px;
+    z-index: 1;
+    flex: 1;
 }
 .welcome {
-    font-size: 88px;
+    font-size: 36px;
     color: aliceblue;
+    font-weight: 800;
     text-shadow: 0 0 5px white,
                  0 0 20px black,
                  0 0 40px white;
+    margin-bottom: 16px;
 
    
 }
 
 .welcometext {
-    font-size: 36px;
+    font-size: 16px;
     color: aliceblue; 
     text-shadow: 0 0 5px white;
 }
@@ -111,9 +134,11 @@ a {
 }
 
 .memimg {
-    width: auto;
-    height: 500px;
+    width: 800px;
+    height: auto;
     border-radius: 100px;
+    flex-shrink: 1;
+    
     
 }
 
