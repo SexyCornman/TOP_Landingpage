@@ -1,9 +1,9 @@
 body {
-    padding: 0 128px;
+    
 }
 
 .topsection{
-    background-color: #a8d1df;
+   background-color: #3e546e;
 
 
 }
@@ -11,6 +11,8 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 16px;
+    background: rgb(103,190,228);
+    background: linear-gradient(158deg, rgba(103,190,228,1) 0%, rgba(124,214,214,1) 52%, rgba(0,255,218,1) 100%);
 }
 
 .usaken {
@@ -26,12 +28,26 @@ body {
 }
 
 .logo {
-    font-family: fantasy;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #ffb859;
+    text-shadow: 2px -2px #070808;
+    
 }
 
 .rightside {
     display: flex;
     align-items: center;
     gap: 8px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-shadow: 2px 2px #070808;
     
+}
+
+a {
+        text-decoration: none;
+        color: aliceblue;
 }
