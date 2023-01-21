@@ -65,6 +65,7 @@ a {
     box-shadow: 0 0 20px #070808;
     margin: 5% 10%;
     gap: 32px;
+    padding-right: 32px;
     
 
 }
@@ -84,7 +85,7 @@ a {
     display: flex;
     flex: 1;
     border-radius: 50px;
-    max-width: 800px;
+    max-width: 50vw;
 }
 
 .leftbox {
