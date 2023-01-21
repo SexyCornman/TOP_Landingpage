@@ -1,10 +1,3 @@
-body {
-    
-}
-
-.topsection{ 
-    
-}
 
 .navbar {
     display: flex;
@@ -134,15 +127,15 @@ a {
 }
 
 .backgroundcred {
-    background-color: #ffb857;
+    background-color: #fddf99;
     display: flex;
     justify-content: center;
 }
 
 .section2 {
-    background: rgb(103,190,228);
-    background: linear-gradient(158deg, rgba(103,190,228,1) 0%, rgba(124,214,214,1) 52%, rgba(0,255,218,1) 100%);
+background: linear-gradient(0deg, rgba(153,183,253,1) 15%, rgba(253,223,153,0.5) 100%);
 }
+
 
 .cardbox {
     display: flex;
@@ -188,6 +181,28 @@ a {
                  0 0 40px white;
 
 }
+
+.section3 {
+    background: url(./PIC/Pekobg.jpg)no-repeat center fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 64px;
+    font-weight: 800;
+    color:white;
+    text-shadow: 0 0 5px white,
+                 0 0 20px black,
+                 0 0 40px white;
+    padding: 64px 20%;
+}
+
 
 
 
