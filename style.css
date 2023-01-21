@@ -203,6 +203,51 @@ background: linear-gradient(0deg, rgba(153,183,253,1) 15%, rgba(253,223,153,0.5)
     padding: 64px 20%;
 }
 
+.section4 {
+    display: flex;
+    background: linear-gradient(0deg, rgba(153,183,253,1) 15%, rgba(253,223,153,0.5) 100%);
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
 
+.signupcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid 4px white;
+    border-radius: 15px;
+    margin: 128px auto;
+    gap: 32px;
+    padding: 32px;
+}
 
+.signtext {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+   
+        
+}
 
+.big {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0 0 15px black;
+}
+
+.small{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.webpageby {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    background-color: #fee855;
+}
